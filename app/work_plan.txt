@@ -1,0 +1,5 @@
+1. manage url path
+2. get json
+3. parse json
+4. add database
+5. manage data struct

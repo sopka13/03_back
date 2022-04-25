@@ -9,5 +9,7 @@ GET     /                           controllers.HomeController.index()
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.versioned(path="/public", file: Asset)
 
-# For http://localhost:9000/test?p=12
-GET		/test						controllers.HomeController.test(p: Int)
+# For http://localhost:9000/flinkList
+GET		/flinkList					controllers.HomeController.flinkList()
+
+GET		/status						models.Application.index()
